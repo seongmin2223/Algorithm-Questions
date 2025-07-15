@@ -1,10 +1,10 @@
-class Solution{
-    public double solution(int[] numbers){
-        double sum = 0;
-        for(int i=0; i < numbers.length; i++){
-            sum += numbers[i];
+class Solution {
+    public double solution(int[] arr) {
+        double answer = 0;
+        for(int i=0; i < arr.length; i++){
+            answer += arr[i];
         }
-        double average = sum/(double) numbers.length;
+        double average = answer/(double) arr.length;
         return average;
-    }    
+    }
 }
